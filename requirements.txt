@@ -1,0 +1,16 @@
+matplotlib
+numpy
+pandas
+Pillow
+PyJWT
+requests==2.22.0
+requests_toolbelt==0.9.1
+urllib3
+pyrebase
+Pyrebase4
+scikit_learn
+seaborn
+streamlit
+streamlit_lottie
+streamlit_option_menu
+secure-smtplib
