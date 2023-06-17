@@ -293,7 +293,7 @@ def app_one(email=None):
                 st.write('')
                 st.write('')
                 st.write('<p style="font-size:22px; color:grey;">Connect with Us</p>', unsafe_allow_html=True)
-                st.write("[Mohammed](https://www.linkedin.com/in/mohammed-qasem-648467262/) | [Dalia](https://www.linkedin.com/in/dalia-aljahmani-900461262/) | [Rahaf](https://www.linkedin.com/in/rahaf-rsq/)")
+                st.write("[Mohammed](https://www.linkedin.com/in/mo442/) | [Dalia](https://www.linkedin.com/in/dalia-aljahmani-900461262/) | [Rahaf](https://www.linkedin.com/in/rahaf-rsq/)")
                 
             with left_column:
                 st_lottie(anim_2, height=220, key="coding")
