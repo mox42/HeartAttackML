@@ -104,7 +104,7 @@ if choice == 'Reset password':
 
 # Logo
 with st.sidebar:
-    st.image("https://imgtr.ee/images/2023/05/22/wUudQ.png")
+    st.image("https://i.imgur.com/g4gtlq0.png")
 
 
 # Center an image on sidebar
