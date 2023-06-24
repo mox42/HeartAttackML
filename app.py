@@ -5,9 +5,6 @@ import requests
 import pickle
 import smtplib
 
-from sklearn.preprocessing import MinMaxScaler
-scal=MinMaxScaler()
-
 # option menu
 from streamlit_option_menu import option_menu 
 
