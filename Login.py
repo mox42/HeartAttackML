@@ -11,8 +11,6 @@ import pyrebase
 import app
 
 
-
-
 # Firebase configuration
 firebaseConfig = {
     "apiKey": "AIzaSyDdMp9tkDf0mwQDKsI2Z7glVqmdUyydzK0",
@@ -30,14 +28,8 @@ firebaseConfig = {
 firebase = pyrebase.initialize_app(firebaseConfig)
 auth = firebase.auth()
 
-# Database
-db = firebase.database()
-storage = firebase.storage()
-
-
 # Authentication sidebar
 choice = st.sidebar.selectbox('Login/Signup', ['Login', 'Sign up', 'Reset password'])
-
 
 
 # Obtain User Input for email and password
