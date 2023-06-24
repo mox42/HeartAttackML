@@ -156,7 +156,7 @@ def app_one(email=None):
             oldpeak=st.number_input('Oldpeak')
             slope = st.selectbox('Heart Rate slope',("Upsloping: better heart rate with excercise(uncommon)","Flatsloping: minimal change(typical healthy heart)","Downsloping: signs of unhealthy heart"))
             ca=st.selectbox('Number of Major Vessels Colored by Flourosopy',range(0,5,1))
-            thal=st.selectbox('Thalium Stress Result',range(1,4,1))
+            thal=st.selectbox('Thalium Stress Result',("Null","Fixed defect","Normal","Reversible defect"))
     
             # Condition for prediction (categorical input features )
             
@@ -196,13 +196,15 @@ def app_one(email=None):
             elif slope=="Downsloping: signs of unhealthy heart":
                 slope=2 
     
-            # Maximum Heart Rate Achieved
-            if thal=="fixed defect: used to be defect but ok now":
-                thal=2
+            # Thalium Stress Result
+            if thal=="Null":
+                thal=0
             elif thal=="reversable defect: no proper blood movement when excercising":
-                thal=3
-            elif thal=="normal":
                 thal=1
+            elif thal=="Normal":
+                thal=2
+            elif thal=="Reversible defect":
+                thal=3
     
             # Resting Electrocardiographic Results
             if restecg=="Nothing to note":
