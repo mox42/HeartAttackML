@@ -155,8 +155,8 @@ def app_one(email=None):
             exang=st.radio('Exercise Induced Angina',["Yes","No"])
             oldpeak=st.number_input('Oldpeak')
             slope = st.selectbox('Heart Rate slope',("Upsloping: better heart rate with excercise(uncommon)","Flatsloping: minimal change(typical healthy heart)","Downsloping: signs of unhealthy heart"))
-            ca=st.selectbox('Number of Major Vessels Colored by Flourosopy',("0","1","2","3"))
-            thal=st.selectbox('Thalium Stress Result',("Null","Fixed defect","Normal","Reversible defect"))
+            ca=st.selectbox('Number of Major Vessels Colored by Fluorosopy',("0","1","2","3"))
+            thal=st.selectbox('Thallium Stress Result',("Null","Fixed defect","Normal","Reversible defect"))
     
             # Condition for prediction (categorical input features )
             
@@ -207,7 +207,7 @@ def app_one(email=None):
                 slope=2 
                 
     
-            # Thalium Stress Result
+            # Thallium Stress Result
             if thal=="Null":
                 thal=0
             elif thal=="Fixed defect":
