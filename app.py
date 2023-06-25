@@ -18,7 +18,7 @@ from streamlit_lottie import st_lottie
 def app_one(email=None):
     
     # Load the model
-    loaded_model=pickle.load(open("Model_datasets/gbt_model.pickle","rb"))
+    loaded_model=pickle.load(open("Model_datasets/final_model.pickle","rb"))
     
     
     
