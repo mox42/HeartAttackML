@@ -189,13 +189,13 @@ def app_one(email=None):
             # Resting Blood Pressure
             if exang=="Yes":
                 exang=1
-            elif exang=="No":
+            else:
                 exang=0
     
             # Fasting Blood Sugar
             if fbs=="Yes":
                 fbs=1
-            elif fbs=="No":
+            else:
                 fbs=0
     
             # Heart Rate slope
@@ -208,14 +208,14 @@ def app_one(email=None):
                 
     
             # Thallium Stress Result
-            if thal=="Null":
-                thal=0
-            elif thal=="Fixed defect":
+            if thal=="Fixed defect":
                 thal=1
             elif thal=="Normal":
                 thal=2
             elif thal=="Reversible defect":
                 thal=3
+            elif thal=="Null":
+                thal=0
     
             # Resting Electrocardiographic Results
             if restecg=="Nothing to note":
