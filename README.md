@@ -8,7 +8,15 @@ It was developed to address the need for accurate and efficient heart attack pre
 
 This System employs several popular machine learning algorithms, including Gradient Boosting, Decision Trees, Random Forest, Support Vector Machines, Naïve Bayes, and Logistic Regression. By trying multiple algorithms and evaluating their performance, the system selects the most suitable one for the given problem.
 
-## Features
+Key Features of the Heart Attack Prediction System:
+- **Data Collection:** The Dataset collected from Kaggle 1025 records with 14 features
+- **Data Pre-processing:** Before training the machine learning models, the collected data is cleaned and processed to ensure it is suitable for analysis.
+- **Feature Selection:** The system identifies important features from the pre-processed data that are relevant for predicting heart attacks.
+- **Model Training and Validation:** The machine learning model is trained on the collected and pre-processed data and validated using suitable evaluation metrics.
+- **Model Extraction and Deployment:** The trained model was extract using pickle and deplyoed into streamlit cloud service 
+
+
+## Features of the project
 
 - User-friendly interface for inputting personal and medical information.
 - Utilizes machine learning models to predict the probability of a heart attack.
