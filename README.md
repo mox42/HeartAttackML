@@ -26,8 +26,8 @@ To enhance the system's accuracy and performance, four feature selection methods
 The project is deployed as a web application using Streamlit. The application can be accessed at https://heartml.streamlit.app
 
 ## Contributors
-- Dalia AlJahmani  GitHub [here](https://github.com/Dalia2810)
-- Rahaf AlQura’an  GitHub [here](https://github.com/Rahafrsq)
+- Dalia AlJahmani - GitHub [here](https://github.com/Dalia2810)
+- Rahaf AlQura’an - GitHub [here](https://github.com/Rahafrsq)
 
 
 ## Contact
