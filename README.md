@@ -13,7 +13,9 @@ This System employs several popular machine learning algorithms, including Gradi
 - Utilizes machine learning models to predict the probability of a heart attack.
 - Provides insights and statistics about heart diseases and heart attacks.
 - Contact section for user feedback and support.
-- 
+
+
+
 ## Steps
 Key Features of the Heart Attack Prediction System
 - **Data Collection:** The Dataset collected from Kaggle 1025 records with 14 features
