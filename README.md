@@ -2,6 +2,7 @@
 
 ## Project Overview
 
+**Description of the Project**
 The Heart Attack Prediction System is an interactive web application that predicts the likelihood of a heart attack based on user input. The system is built using machine learning algorithms and provides accurate and efficient heart attack predictions to improve early detection and prevention.
 
 It was developed to address the need for accurate and efficient heart attack prediction systems that can aid healthcare providers in making informed decisions about patient care. By leveraging machine learning techniques, the system offers an accessible and reliable solution for heart attack risk assessment.
@@ -13,11 +14,9 @@ Key Features of the Heart Attack Prediction System:
 - **Data Pre-processing:** Before training the machine learning models, the collected data is cleaned and processed to ensure it is suitable for analysis.
 - **Feature Selection:** The system identifies important features from the pre-processed data that are relevant for predicting heart attacks.
 - **Model Training and Validation:** The machine learning model is trained on the collected and pre-processed data and validated using suitable evaluation metrics.
-- **Model Extraction and Deployment:** The trained model was extract using pickle and deplyoed into streamlit cloud service 
-
-
-## Features of the project
-
+- **Model Extraction and Deployment:** The trained model was extract using pickle and deplyoed into streamlit cloud service
+  
+**Features of the project**
 - User-friendly interface for inputting personal and medical information.
 - Utilizes machine learning models to predict the probability of a heart attack.
 - Provides insights and statistics about heart diseases and heart attacks.
