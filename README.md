@@ -27,7 +27,7 @@ The project is deployed as a web application using Streamlit. The application ca
 
 ## Contributors
 - Dalia AlJahmani -  GitHub [here](https://github.com/Dalia2810)
-- Rahaf AlQura’an  - GitHub [here](https://github.com/Rahaf_rsq)
+- Rahaf AlQura’an  - GitHub [here](https://github.com/Rahafrsq)
 
 
 ## Contact
