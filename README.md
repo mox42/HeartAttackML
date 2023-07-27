@@ -26,11 +26,11 @@ To enhance the system's accuracy and performance, four feature selection methods
 The project is deployed as a web application using Streamlit. The application can be accessed at https://heartml.streamlit.app
 
 ## Contributors
-- Dalia AlJahmani -  GitHub [here](https://github.com/Dalia2810)
-- Rahaf AlQura’an  - GitHub [here](https://github.com/Rahafrsq)
+- Dalia AlJahmani - GitHub [here](https://github.com/Dalia2810)
+- Rahaf AlQura’an - GitHub [here](https://github.com/Rahafrsq)
 
 
 ## Contact
-If you have any questions, feedback, or need support with the Heart Attack Prediction System, please feel free to contact us at mohammedqasem442@gmail.com
+If you have any questions, feedback, or need support with the Heart Attack Prediction System, please feel free to contact me at mohammedqasem442@gmail.com
 
 
