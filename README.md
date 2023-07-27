@@ -23,7 +23,7 @@ To enhance the system's accuracy and performance, four feature selection methods
 
 ## Deployment
 
-The project is deployed as a web application using Streamlit. The application can be accessed at https://heartml.streamlit.app.
+The project is deployed as a web application using Streamlit. The application can be accessed at https://heartml.streamlit.app
 
 ## Contributors
 - Dalia AlJahmani -  GitHub [here](https://github.com/Dalia2810)
